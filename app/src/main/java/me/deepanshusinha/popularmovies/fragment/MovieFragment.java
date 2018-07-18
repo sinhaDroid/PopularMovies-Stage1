@@ -35,6 +35,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import me.deepanshusinha.popularmovies.BuildConfig;
 import me.deepanshusinha.popularmovies.R;
 import me.deepanshusinha.popularmovies.adapter.MyMovieRecyclerViewAdapter;
 import me.deepanshusinha.popularmovies.model.Movie;
@@ -220,7 +221,7 @@ public class MovieFragment extends Fragment {
             }
 
             return builtUri.buildUpon()
-                    .appendQueryParameter(API.KEY_PARAM, API.KEY)
+                    .appendQueryParameter(API.KEY_PARAM, BuildConfig.MyMovieDBAPIKey)
                     .build();
         }
 

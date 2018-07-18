@@ -11,7 +11,6 @@ public interface Constants {
         String POSTER_MOVIES_BASE_URL = "http://image.tmdb.org/t/p/";
         String POSTER_SIZE = "w185/";
         String KEY_PARAM = "api_key";
-        String KEY = "e1ca6f73f69d8963b45dc279c6d97305";
     }
 
     // THE MOVIE DB JSON
